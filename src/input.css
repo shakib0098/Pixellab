@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --color-brand: #ff6b00;
+  --color-brand-light: #ff8533;
+  --color-dark: #1a1a2e;
+}
+
+@layer components {
+  .card-shadow {
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+  }
+}

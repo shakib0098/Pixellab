@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixelab - Startup Agency</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="overflow-x-hidden font-sans text-gray-600 bg-white antialiased">
+    <!-- Navbar / Header -->
+    <nav class="container fixed top-0 left-0 right-0 z-50 mx-auto flex flex-wrap items-center justify-between gap-y-3 bg-white/90 px-4 py-4 backdrop-blur-sm sm:px-6 sm:py-6 md:flex-nowrap">
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-1 text-2xl font-bold text-gray-800">
+        <span><img src="./Assets/Logo.png" alt="Pixelab Logo" class="h-8 w-auto"></span>
+      </div>
+
+      <!-- Primary Navigation Links -->
+      <div class="order-3 flex w-full flex-wrap justify-center gap-4 text-sm font-medium sm:gap-6 md:order-none md:w-auto md:gap-8">
+        <a href="#" class="text-gray-800 hover:text-brand transition">Home</a>
+        <a href="#" class="hover:text-brand transition">About Us</a>
+        <a href="#" class="hover:text-brand transition">Our App</a>
+        <a href="#" class="hover:text-brand transition">Contacts</a>
+      </div>
+
+      <!-- Auth Actions -->
+      <div class="flex w-full items-center justify-center gap-4 text-sm font-medium sm:w-auto sm:gap-6 md:justify-end">
+        <a href="#" class="hover:text-brand transition">Log in</a>
+        <a
+          href="#"
+          class="bg-brand text-white px-6 py-2.5 rounded-full hover:bg-brand-light transition shadow-md shadow-orange-500/30"
+          >Sign up</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="container mx-auto flex flex-col-reverse items-center gap-10 px-4 pb-10 pt-36 sm:gap-12 sm:px-6 sm:pb-12 sm:pt-40 md:flex-row md:py-20 md:pt-32">
+      <!-- Hero Content -->
+      <div class="w-full space-y-6 text-center md:w-1/2 md:text-left">
+        <h1
+          class="text-3xl font-bold leading-[1.15] text-[#111] sm:text-4xl md:text-5xl lg:text-6xl">
+          We boost<br />growth for your<br />startup business
+        </h1>
+        <p class="mx-auto max-w-md text-sm leading-relaxed text-gray-500 md:mx-0">
+          Our goal is to put the heart of creativity services industry as a
+          digital creator. In hoc certus comment.
+        </p>
+        <div class="flex flex-col items-center gap-4 pt-4 sm:flex-row sm:justify-center sm:gap-6 md:justify-start">
+          <a
+            href="#"
+            class="bg-brand text-white px-8 py-3.5 rounded-full font-medium hover:bg-brand-light transition shadow-lg shadow-orange-500/30">
+            Get Started
+          </a>
+          <button class="flex items-center gap-3 group">
+            <div
+              class="w-12 h-12 rounded-full border-2 border-gray-200 flex items-center justify-center group-hover:border-brand transition">
+              <svg
+                class="w-4 h-4 text-gray-800 group-hover:text-brand transition ml-1"
+                fill="currentColor"
+                viewBox="0 0 20 20">
+                <path d="M4 4l12 6-12 6z"></path>
+              </svg>
+            </div>
+            <span class="font-medium text-sm text-gray-800">Learn More</span>
+          </button>
+        </div>
+      </div>
+      <!-- Hero Image -->
+      <div class="relative mt-2 flex w-full justify-center sm:mt-6 md:mt-10 md:w-1/2">
+        <div class="relative h-[320px] w-[320px] sm:h-[430px] sm:w-[430px] md:h-[520px] md:w-[520px] lg:h-[620px] lg:w-[620px]">
+          <div
+            class="absolute inset-0 rounded-full"></div>
+          <img
+            src="./Assets/Group 32.png"
+            alt="Man looking at phone"
+            class="absolute bottom-0 h-full w-[118%] -left-[9%] object-cover object-top drop-shadow-2xl rounded-b-full sm:w-[122%] sm:-left-[11%] md:w-[120%] md:-left-[10%]" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="bg-gray-50/50 py-16 sm:py-20 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6">
+        <!-- Section Heading -->
+        <div class="mb-12 text-center sm:mb-16">
+          <span
+            class="text-xs font-semibold text-gray-400 tracking-wider uppercase"
+            >Services</span
+          >
+          <h2 class="mt-2 text-2xl font-bold text-gray-800 sm:text-3xl">
+            Our Vision & Our Goal
+          </h2>
+        </div>
+
+        <!-- Service Cards -->
+        <div class="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <div
+            class="card-shadow flex flex-col items-center rounded-2xl border border-gray-50 bg-white p-6 text-center sm:p-8 lg:p-10">
+            <div
+              class="w-16 h-16 bg-gray-900 rounded-2xl flex items-center justify-center mb-6 text-white">
+              <svg
+                class="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-4">Graphic Design</h3>
+            <p class="text-gray-500 text-sm leading-relaxed mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a
+              href="#"
+              class="bg-brand text-white px-8 py-2.5 rounded-full text-sm font-medium hover:bg-brand-light transition"
+              >Learn</a
+            >
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="card-shadow flex flex-col items-center rounded-2xl border border-gray-50 bg-white p-6 text-center sm:p-8 lg:p-10">
+            <div
+              class="w-16 h-16 bg-gray-900 rounded-2xl flex items-center justify-center mb-6 text-white">
+              <svg
+                class="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-4">Video Editing</h3>
+            <p class="text-gray-500 text-sm leading-relaxed mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a
+              href="#"
+              class="bg-brand text-white px-8 py-2.5 rounded-full text-sm font-medium hover:bg-brand-light transition"
+              >Learn</a
+            >
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="card-shadow flex flex-col items-center rounded-2xl border border-gray-50 bg-white p-6 text-center sm:p-8 lg:p-10">
+            <div
+              class="w-16 h-16 bg-gray-900 rounded-2xl flex items-center justify-center mb-6 text-white">
+              <svg
+                class="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-gray-800 mb-4">
+              Digital Marketing
+            </h3>
+            <p class="text-gray-500 text-sm leading-relaxed mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a
+              href="#"
+              class="bg-brand text-white px-8 py-2.5 rounded-full text-sm font-medium hover:bg-brand-light transition"
+              >Learn</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Highlight Section -->
+    <section class="container mx-auto px-4 py-16 sm:px-6 sm:py-20 md:py-24">
+      <div class="flex flex-col items-center gap-10 sm:gap-12 md:flex-row md:gap-16">
+        <!-- Feature Text -->
+        <div class="w-full space-y-6 text-center md:w-1/3 md:text-left">
+          <h2 class="text-2xl font-bold text-[#1a1a2e] sm:text-3xl md:text-2xl">
+            Many Blocks and<br />Components
+          </h2>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Startup Framework contains components and complex blocks which can
+            easily be integrated into almost any design.
+          </p>
+          <button
+            class="px-8 py-2.5 rounded-full border border-gray-200 text-sm font-medium hover:border-gray-300 transition mt-4">
+            Explore
+          </button>
+        </div>
+        <!-- Feature Image -->
+        <div class="w-full md:w-2/3">
+          <img
+            src="./Assets/Mask.png"
+            alt="Abstract Chair Design"
+            class="h-[260px] w-full rounded-2xl object-cover shadow-xl sm:h-[320px] md:h-[400px]" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-gray-50/30 py-16 sm:py-20 md:py-24">
+      <div class="container mx-auto max-w-5xl px-4 sm:px-6">
+        <!-- Section Heading -->
+        <div class="mb-12 text-center sm:mb-16">
+          <span
+            class="text-xs font-semibold text-gray-400 tracking-wider uppercase"
+            >Testimonial</span
+          >
+          <h2 class="mt-2 text-2xl font-bold text-gray-800 sm:text-3xl">
+            What Clients say about us
+          </h2>
+        </div>
+
+        <!-- Testimonial Grid -->
+        <div class="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 md:gap-x-12 md:gap-y-16">
+          <!-- Testimonial 1 -->
+          <div class="flex gap-4">
+            <img
+              src="./Assets/1.png"
+              alt="Avatar"
+              class="w-12 h-12 rounded-full object-cover" />
+            <div>
+              <p class="text-gray-600 text-sm italic mb-4 leading-relaxed">
+                "Get what you actually want when you build a stellar business
+                process. Make the web site we want more pragmatism. We use solid
+                UI as a daily support."
+              </p>
+              <span
+                class="text-xs font-bold text-gray-400 uppercase tracking-wider"
+                >Arthur Benson</span
+              >
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="flex gap-4">
+            <img
+              src="./Assets/2.png"
+              alt="Avatar"
+              class="w-12 h-12 rounded-full object-cover" />
+            <div>
+              <p class="text-gray-600 text-sm italic mb-4 leading-relaxed">
+                "The most important part of the Startup Framework is the
+                samples."
+              </p>
+              <span
+                class="text-xs font-bold text-gray-400 uppercase tracking-wider"
+                >Rayhan Khan</span
+              >
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="flex gap-4">
+            <img
+              src="./Assets/3.png"
+              alt="Avatar"
+              class="w-12 h-12 rounded-full object-cover" />
+            <div>
+              <p class="text-gray-600 text-sm italic mb-4 leading-relaxed">
+                "You've been helping for global business website and email
+                marketing for so long and well structured. It is enough for us
+                well done."
+              </p>
+              <span
+                class="text-xs font-bold text-gray-400 uppercase tracking-wider"
+                >Jone Macfarlin</span
+              >
+            </div>
+          </div>
+          <!-- Testimonial 4 -->
+          <div class="flex gap-4">
+            <img
+              src="./Assets/4.png"
+              alt="Avatar"
+              class="w-12 h-12 rounded-full object-cover" />
+            <div>
+              <p class="text-gray-600 text-sm italic mb-4 leading-relaxed">
+                "I've built my website with Startup just in one day, and it was
+                ready-to-go."
+              </p>
+              <span
+                class="text-xs font-bold text-gray-400 uppercase tracking-wider"
+                >Alexie E.M.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="container mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20 md:py-24">
+      <!-- Section Heading -->
+      <div class="mb-12 text-center sm:mb-16">
+        <span
+          class="text-xs font-semibold text-gray-400 tracking-wider uppercase"
+          >Our Team</span
+        >
+        <h2 class="mt-2 text-2xl font-bold text-gray-800 sm:text-3xl">Meet The Team</h2>
+      </div>
+
+      <!-- Team Member Cards -->
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Member 1 -->
+        <div class="text-center">
+          <img
+            src="./Assets/user pic.png"
+            alt="Vanessa Laird"
+            class="w-28 h-28 rounded-full mx-auto mb-6 object-cover shadow-md" />
+          <h3 class="font-bold text-gray-800 text-lg">Vanessa Laird</h3>
+          <p
+            class="text-xs font-medium text-gray-400 uppercase tracking-widest mt-1">
+            UI Designer
+          </p>
+          <div
+            class="flex justify-center gap-3 mt-4 border-t border-gray-100 pt-4">
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+          </div>
+        </div>
+        <!-- Member 2 -->
+        <div class="text-center">
+          <img
+            src="./Assets/Userpic (1).png"
+            alt="Mason Campbell"
+            class="w-28 h-28 rounded-full mx-auto mb-6 object-cover shadow-md" />
+          <h3 class="font-bold text-gray-800 text-lg">Mason Campbell</h3>
+          <p
+            class="text-xs font-medium text-gray-400 uppercase tracking-widest mt-1">
+            UI Designer
+          </p>
+          <div
+            class="flex justify-center gap-3 mt-4 border-t border-gray-100 pt-4">
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+          </div>
+        </div>
+        <!-- Member 3 -->
+        <div class="text-center">
+          <img
+            src="./Assets/Userpic.png"
+            alt="Irea Evans"
+            class="w-28 h-28 rounded-full mx-auto mb-6 object-cover shadow-md" />
+          <h3 class="font-bold text-gray-800 text-lg">Irea Evans</h3>
+          <p
+            class="text-xs font-medium text-gray-400 uppercase tracking-widest mt-1">
+            Client Manager
+          </p>
+          <div
+            class="flex justify-center gap-3 mt-4 border-t border-gray-100 pt-4">
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+            <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-gray-50/50 py-16 sm:py-20 md:py-24">
+      <div class="container mx-auto max-w-4xl px-4 sm:px-6">
+        <!-- Section Heading -->
+        <div class="mb-12 text-center sm:mb-16">
+          <span
+            class="text-xs font-semibold text-gray-400 tracking-wider uppercase"
+            >Our Email</span
+          >
+          <h2 class="mt-2 text-2xl font-bold text-gray-800 sm:text-3xl">
+            Subscribe Our Newsletter
+          </h2>
+        </div>
+
+        <!-- Newsletter Card -->
+        <div
+          class="card-shadow flex flex-col items-center gap-8 rounded-[2rem] bg-white p-6 sm:gap-10 sm:p-8 md:flex-row md:gap-12 md:p-12">
+          <!-- Illustration -->
+          <div class="flex w-full justify-center md:w-2/5">
+            <img
+              src="./Assets/Frame.png"
+              alt="Newsletter Illustration"
+              class="h-auto w-[80%] object-cover sm:w-[70%] md:w-full" />
+          </div>
+
+          <!-- Form Content -->
+          <div class="w-full space-y-6 text-center md:w-3/5 md:text-left">
+            <p class="text-sm leading-relaxed text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <form class="space-y-4">
+              <input
+                type="email"
+                placeholder="Your E-mail here..."
+                class="w-full px-6 py-4 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-brand transition" />
+              <button
+                type="button"
+                class="w-full bg-brand text-white font-medium py-4 rounded-xl hover:bg-brand-light transition shadow-lg shadow-orange-500/30">
+                Subscribe Our Newsletter
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mx-auto mt-12 border-t border-gray-100 px-4 py-10 sm:px-6 sm:py-12">
+      <div class="flex flex-col items-center justify-between gap-6 md:flex-row">
+        <!-- Footer Logo -->
+        <div class="flex items-center gap-1 text-xl font-bold text-gray-800">
+          <span><img src="./Assets/Logo.png" alt="Pixelab Logo" class="h-6 w-auto"></span>
+        </div>
+
+        <p class="text-xs text-gray-400">
+          © 2022 Epixelab. All rights reserved.
+        </p>
+
+        <!-- Footer Links -->
+        <div class="flex flex-wrap justify-center gap-4 text-xs font-medium text-gray-500 sm:gap-6">
+          <a href="#" class="hover:text-brand transition">Portfolio</a>
+          <a href="#" class="hover:text-brand transition">How it Works</a>
+          <a href="#" class="hover:text-brand transition">Pricing</a>
+          <a href="#" class="hover:text-brand transition">About</a>
+          <a href="#" class="hover:text-brand transition">Login</a>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-[10px] text-gray-300">
+        Startup Framework contains components and complex blocks which can
+        easily be integrated into almost any design.
+      </div>
+    </footer>
+  </body>
+</html>
